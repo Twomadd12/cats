@@ -1,0 +1,149 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+    max-width: 428px;
+    height: 56px;
+    background-color: #A77C5D;
+    box-shadow: -2px 4px 11px 1px rgb(136, 131, 131);
+    filter: drop-shadow(5px 5px 5px rgba(248, 243, 243, 0.719));
+    
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    max-width: 397px;
+    height: 22px;
+    padding-top: 14px;
+}
+.nav-btn{
+    width: 17.5px;
+    padding-left: 16.25px;
+}
+
+
+.weight-monitor{
+    width: 164px;
+    padding-left: 16.25px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+white-space: nowrap;
+}
+.nav-plus{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 365px;
+}
+/* Footer End */
+section{
+    width: auto;
+    max-width: 428px;
+    height: 844px;
+    background-color: #F4E8DE;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.main{
+    padding-top: 24px;
+    max-width: 380px;
+    height: 100vh;
+}
+.polimorf, .pulheria, .apofem{
+    display: flex;
+    border-radius: 12px;
+    width: 380px;
+    height: 108px;
+    border: 1px solid #A77C5D;
+    box-shadow: 0px 4px 4px #C4C4C4;
+}
+.pulheria, .apofem{
+    margin-top: 16px;
+}
+.cat_one{
+    padding: 24px 0px 24px 24px;
+}
+.info{
+    padding-left: 24px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 92px;
+}
+.text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+.info_weight{
+    position: relative;
+    display: flex;
+    padding-top: 4px;
+}
+.weight{
+    width: 46px;
+    height: 24px;
+}
+.vector{
+    position: absolute;
+    left: 47px;
+    top: 2px;
+    padding-left: 4px;
+    padding-top: 0px;
+}
+.date{
+   position: absolute;
+   width: 61px;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+left: 207px;
+top: 32px;
+}
+.info_icon{
+    position: absolute;
+    left: 249px;
+    top: -40px;
+}
+.vector_two{
+        position: absolute;
+        left: 47px;
+        top: 3px;
+        padding-left: 4px;
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+
