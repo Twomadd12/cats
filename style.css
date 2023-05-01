@@ -72,7 +72,7 @@ section{
     max-width: 380px;
     height: 100vh;
 }
-.polimorf, .pulheria, .apofem{
+.wrapper_cat{
     display: flex;
     border-radius: 12px;
     width: 380px;
@@ -80,8 +80,11 @@ section{
     border: 1px solid #A77C5D;
     box-shadow: 0px 4px 4px #C4C4C4;
 }
-.pulheria, .apofem{
+.wrapper_cat{
     margin-top: 16px;
+}
+.wrapper_cat:first-child{
+    margin-top: 0px;
 }
 .cat_one{
     padding: 24px 0px 24px 24px;
