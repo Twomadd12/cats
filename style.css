@@ -7,6 +7,15 @@
     src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  /* roboto-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 html{
     box-sizing: border-box;
 }
@@ -57,7 +66,7 @@ white-space: nowrap;
     align-items: center;
     padding-left: 365px;
 }
-/* Footer End */
+/* Header End */
 section{
     width: auto;
     max-width: 428px;
@@ -81,67 +90,66 @@ section{
     box-shadow: 0px 4px 4px #C4C4C4;
 }
 .wrapper_cat{
-    margin-top: 16px;
+margin-top: 16px;
 }
 .wrapper_cat:first-child{
-    margin-top: 0px;
+margin-top: 0px;
 }
-.cat_one{
-    padding: 24px 0px 24px 24px;
+.wrap-cats{
+padding: 24px 0px 24px 24px;
 }
 .info{
-    padding-left: 24px;
-    padding-top: 24px;
-    display: flex;
-    flex-direction: column;
-    width: 92px;
+padding-left: 24px;
+padding-top: 24px;
+display: flex;
+flex-direction: column;
+width: 92px;
 }
 .text{
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 28px;
 }
 .info_weight{
-    position: relative;
-    display: flex;
-    padding-top: 4px;
+position: relative;
+display: flex;
+padding-top: 4px;
 }
 .weight{
-    width: 46px;
-    height: 24px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
 }
-.vector{
-    position: absolute;
-    left: 47px;
-    top: 2px;
-    padding-left: 4px;
-    padding-top: 0px;
+.vector-polimorf{
+padding-left: 4px;
+padding-top: 3px;
 }
 .date{
-   position: absolute;
-   width: 61px;
-   font-family: 'Roboto';
+position: absolute;
+width: 61px;
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 12px;
 line-height: 14px;
 left: 207px;
 top: 32px;
 }
 .info_icon{
-    position: absolute;
-    left: 249px;
-    top: -40px;
+position: absolute;
+left: 249px;
+top: -40px;
 }
-.vector_two{
-        position: absolute;
-        left: 47px;
-        top: 3px;
-        padding-left: 4px;
-        padding-top: 0px;
-    }
+.wrap-vectors{
+padding-left: 4px;
+padding-top: 3px;
+}
 
 
 
