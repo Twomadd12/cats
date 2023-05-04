@@ -1,170 +1,154 @@
 /* roboto-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-500 - latin */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-html{
-    box-sizing: border-box;
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-*{
-    margin: 0;
-    padding: 0;
+html {
+  box-sizing: border-box;
 }
-html, body{
-    overflow-x:hidden;
-   }
-
-header{
-    width: 100%;
-    
-    background-color: #A77C5D;
-    box-shadow: -2px 4px 11px 1px rgb(136, 131, 131);
-    filter: drop-shadow(5px 5px 5px rgba(248, 243, 243, 0.719));
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    
-    position: relative;
-    display: flex;
-    
-    
-    
-    height: 35px;
-    padding-top: 14px;
-}
-.nav_button-burger{
-    
-    width: 17.5px;
-    padding-left: 14px;
-    padding-top: 2.5px;
+html,
+body {
+  overflow-x: hidden;
 }
 
+header {
+  width: 100%;
 
-.nav_wrap-title{
-    width: 164px;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto';
-    padding-bottom: 14px;
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 28px;
-white-space: nowrap;
+  background-color: #a77c5d;
+  box-shadow: -2px 4px 11px 1px rgb(136, 131, 131);
+  filter: drop-shadow(5px 5px 5px rgba(248, 243, 243, 0.719));
 }
-.nav_button-plus{
-    position: absolute;
-    display: flex;
-    bottom: 1px;
-    
-    
-    padding-left: 358px;
-    padding-bottom: 9px;
+nav {
+  position: relative;
+  display: flex;
+
+  height: 41px;
+  padding-top: 14px;
+}
+.nav_button-burger {
+  width: 17.5px;
+  padding-left: 16px;
+  padding-top: 5px;
 }
 
+.nav_wrap-title {
+  width: 164px;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+.nav_button-plus {
+  position: absolute;
+  display: flex;
+  bottom: 1px;
 
+  padding-left: 395px;
+  padding-bottom: 13px;
+}
 
 /* Header End */
-section{
-    
-    width: 100%;
-    background-color: #F4E8DE;
-    display: flex;
-    
-    z-index: 0;
-}
-.content{
-    padding-top: 24px;
-    max-width: 380px;
-    height: 100vh;
-}
-.content_wrap-cat{
-    display: flex;
-    border-radius: 12px;
-    width: 365px;
-    height: 94.90px;
-    border: 1px solid #A77C5D;
-    box-shadow: 0px 4px 4px #C4C4C4;
-    margin-top: 16px;
-    margin-left: 10px;
-}
+section {
+  width: 100%;
+  background-color: #f4e8de;
+  display: flex;
 
-.content_wrap-cat:first-child{
-margin-top: 0px;
+  z-index: 0;
 }
-.content_wrap-img{
-padding: 17px 0px 24px 19px;
+.content {
+  padding-top: 24px;
+  max-width: 380px;
+  height: 100vh;
 }
-.content_wrap-info{
-padding-left: 24px;
-padding-top: 24px;
-display: flex;
-flex-direction: column;
-width: 92px;
-padding-top: 18px;
-padding-left: 18px;
-}
-.content_wrap-name{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 28px;
-}
-.content_wrap-vectors_weight{
-position: relative;
-display: flex;
-padding-top: 4px;
-font-family: Roboto;
-font-size: 15px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+.content_wrap-cat {
+  display: flex;
+  border-radius: 12px;
+  width: 405.1px;
+  height: 106px;
+  border: 1px solid #a77c5d;
+  box-shadow: 0px 4px 4px #c4c4c4;
+  margin-top: 16px;
+  margin-left: 11px;
 }
 
-
-.content_wrap-date{
-position: absolute;
-width: 61px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 10.50px;
-line-height: 14px;
-left: 205px;
-top: 28px;
+.content_wrap-cat:first-child {
+  margin-top: 0px;
 }
-.content_wrap-icon{
-position: absolute;
-left: 240px;
-top: -35px;
-width: 9.50px;
-height: 10.25px;
+.content_wrap-img {
+  padding: 24px 0px 24px 24px;
 }
-.content_wrap-vectors{
-padding-left: 4px;
-padding-top: 1px;
+.content_wrap-info {
+  padding-left: 24px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 92px;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.content_wrap-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.content_wrap-vectors_weight {
+  position: relative;
+  display: flex;
+  padding-top: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-
-
-
-
-
-
-
+.content_wrap-date {
+  position: absolute;
+  width: 61px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  left: 223px;
+  top: 30px;
+}
+.content_wrap-icon {
+  position: absolute;
+  left: 264px;
+  top: -37px;
+  width: 9.5px;
+  height: 10.25px;
+}
+.content_wrap-vectors {
+  padding-left: 4px;
+  padding-top: 1px;
+}
