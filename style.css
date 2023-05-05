@@ -85,7 +85,7 @@ section {
   max-width: 380px;
   height: 100vh;
 }
-.content__cat {
+.cat {
   display: flex;
   border-radius: 12px;
   width: 405.1px;
@@ -141,7 +141,7 @@ section {
   left: 223px;
   top: 30px;
 }
-.content__icon {
+.cat__icon {
   position: absolute;
   left: 264px;
   top: -37px;
@@ -151,4 +151,8 @@ section {
 .cat__weight-vector {
   padding-left: 4px;
   padding-top: 1px;
+  opacity: 0;
+}
+.cat__weight-vector:hover{
+    opacity: 1;
 }
