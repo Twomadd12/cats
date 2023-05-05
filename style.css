@@ -78,14 +78,14 @@ section {
   background-color: #f4e8de;
   display: flex;
 
-  z-index: 0;
+  
 }
 .content {
   padding-top: 24px;
   max-width: 380px;
   height: 100vh;
 }
-.content_wrap-cat {
+.content_cat {
   display: flex;
   border-radius: 12px;
   width: 405.1px;
@@ -96,13 +96,13 @@ section {
   margin-left: 11px;
 }
 
-.content_wrap-cat:first-child {
+.content_cat:first-child {
   margin-top: 0px;
 }
-.content_wrap-img {
+.cat__img {
   padding: 24px 0px 24px 24px;
 }
-.content_wrap-info {
+.cat__info {
   padding-left: 24px;
   padding-top: 24px;
   display: flex;
@@ -111,7 +111,7 @@ section {
   padding-top: 24px;
   padding-left: 24px;
 }
-.content_wrap-name {
+.cat__name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -130,7 +130,7 @@ section {
   text-align: left;
 }
 
-.content_wrap-date {
+.cat__date {
   position: absolute;
   width: 61px;
   font-family: "Roboto";
@@ -141,7 +141,7 @@ section {
   left: 223px;
   top: 30px;
 }
-.content_wrap-icon {
+.content__icon {
   position: absolute;
   left: 264px;
   top: -37px;
