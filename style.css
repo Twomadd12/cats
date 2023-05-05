@@ -37,7 +37,7 @@ header {
   box-shadow: -2px 4px 11px 1px rgb(136, 131, 131);
   filter: drop-shadow(5px 5px 5px rgba(248, 243, 243, 0.719));
 }
-nav {
+.nav {
   position: relative;
   display: flex;
 
@@ -147,12 +147,14 @@ section {
   top: -37px;
   width: 9.5px;
   height: 10.25px;
+  opacity: 0;
 }
 .cat__weight-vector {
   padding-left: 4px;
   padding-top: 1px;
-  opacity: 0;
+ 
 }
-.cat__weight-vector:hover{
-    opacity: 1;
+.cat:hover .cat__icon{
+  opacity: 1;
 }
+
