@@ -1,0 +1,117 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  background-color: #a77c5d;
+  box-shadow: -2px 4px 11px 1px rgb(136, 131, 131);
+  z-index: 100;
+  filter: drop-shadow(5px 5px 5px rgba(248, 243, 243, 0.719));
+}
+.nav {
+  display: flex;
+  height: 41px;
+  padding-top: 14px;
+}
+.nav__button-arrow {
+  width: 17.5px;
+  padding-left: 16px;
+  padding-top: 5px;
+}
+.nav__img {
+  padding-left: 15px;
+  margin-top: -5px;
+}
+
+.nav__title {
+  width: 164px;
+  padding-left: 13px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+.nav__button-icon {
+  display: flex;
+  bottom: 1px;
+
+  padding-left: 135px;
+  padding-top: 5px;
+}
+/* Header End */
+
+.section {
+  width: 100%;
+  background-color: #f4e8de;
+}
+.content__info {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.info {
+  display: flex;
+  padding-top: 10px;
+}
+.info:first-child {
+  padding-top: 0px;
+}
+.info__weight-text,
+.info__birthday,
+.info__age,
+.info__gender {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 12px;
+  padding-top: 1px;
+}
+.info__weight,
+.info__date,
+.info__year,
+.info__female {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 28px;
+  padding-top: 1px;
+}
+.info__date {
+  padding-left: 17px;
+}
+.info__weight-vector {
+  padding-top: 4px;
+  padding-left: 7px;
+}
+.info__year {
+  padding-left: 55px;
+  padding-top: 0px;
+}
+.info__female{
+    padding-left: 26px;
+    padding-top: 0px;
+}
