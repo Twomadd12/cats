@@ -163,6 +163,11 @@ header {
   padding-left: 113px;
   padding-bottom: 3px;
   color: #a5a5a5;
+  
+}
+.text__analityc a{
+  text-decoration: none;
+  color: #a5a5a5;
 }
 .text__analityc:hover{
   color: #332317;
